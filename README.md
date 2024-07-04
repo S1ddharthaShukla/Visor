@@ -5,12 +5,14 @@ This project implements steganography techniques to encode and decode messages w
 ## Table of Contents
 
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
   - [Command-Line Interface](#command-line-interface)
   - [Graphical User Interface](#graphical-user-interface)
 - [Algorithms](#algorithms)
 - [Testing](#testing)
+- [Architecture](#architecture)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
