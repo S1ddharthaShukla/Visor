@@ -124,13 +124,8 @@ Steganography-Project/
 │
 ├── data/
 |   ├── input_images/
-|   |   ├── input_image.png
-|   |   ├── input_image_1.png
-|   |   └── input_image_2.png
+|   |   └── input_image.png
 |   └── output_images/
-|       ├── lsb_encoded_output_image.png
-|       ├── lsbm_encoded_output_image.png
-|       └── rlsb_encoded_output_image.png
 |
 ├── src/
 │   ├── __init__.py
