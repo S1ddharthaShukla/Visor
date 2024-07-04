@@ -20,16 +20,23 @@ This project implements steganography techniques to encode and decode messages w
 - **LSB (Least Significant Bit) Encoding/Decoding**
 - **LSBM (Least Significant Bit Matching) Encoding/Decoding**
 - **RLSB (Random Least Significant Bit) Encoding/Decoding with Seed**
+- **Image utility functions for loading, saving, and processing images**
 - **PyQt5 GUI for easy interaction**
 - **Command-line interface for advanced users**
 - **Unit tests for core functionalities**
+
+
+## Technologies Used
+- **Python**
+- **Pillow (PIL)**
+- **PyQt5**
 
 ## Installation
 
 1. Clone the repository:
     ```sh
     git clone https://github.com/S1ddharthaShukla/Steganography-Project.git
-    cd Steganography-Project
+    cd path/to/Steganography-Project
     ```
 
 2. Create a virtual environment and activate it:
@@ -88,6 +95,25 @@ Run the unit tests using `pytest`:
 ```sh
 pytest
 ```
+*Ensure you are in the project directory.
+
+## Architecture
+
+### Overview
+The steganography project consists of several modules, each responsible for different aspects of the application.
+
+### Modules
+- **algorithms**: Contains the main functions for encoding and decoding messages using LSB, LSBM and RLSB algorithms.
+- **image_utils.py**: Provides utility functions for image processing.
+- **main.py**: The entry point of the application.
+- **tests**: Provides unittests for thorough code inspection.
+- **data**: A sample space provided for the user's reference.
+
+### Workflow
+1. The user selects an image and a message.
+2. The `encode_message` function is called to hide the message in the image.
+3. The encoded image is saved to the specified output path.
+4. The `decode_message` function can be used to extract the hidden message from the encoded image.
 
 ## Project Structure
 
