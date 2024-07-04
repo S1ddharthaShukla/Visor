@@ -126,6 +126,7 @@ Steganography-Project/
 |   ├── input_images/
 |   |   └── input_image.png
 |   └── output_images/
+|       └── output_image.png
 |
 ├── src/
 │   ├── __init__.py
