@@ -28,8 +28,8 @@ This project implements steganography techniques to encode and decode messages w
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/steganography.git
-    cd steganography
+    git clone https://github.com/S1ddharthaShukla/Steganography-Project.git
+    cd Steganography-Project
     ```
 
 2. Create a virtual environment and activate it:
@@ -87,3 +87,41 @@ This project implements steganography techniques to encode and decode messages w
 Run the unit tests using `pytest`:
 ```sh
 pytest
+```
+
+## Project Structure
+
+```sh
+Steganography-Project/
+│
+├── data/
+|   ├── input_images/
+|   |   ├── input_image.png
+|   |   ├── input_image_1.png
+|   |   └── input_image_2.png
+|   └── output_images/
+|       ├── lsb_encoded_output_image.png
+|       ├── lsbm_encoded_output_image.png
+|       └── rlsb_encoded_output_image.png
+|
+├── src/
+│   ├── __init__.py
+|   ├── algorithms/
+|   |   ├── lsb.py
+|   |   ├── lsbm.py
+|   |   └── rlsb.py
+│   ├── main.py
+│   ├── gui.py
+│   └── utils/
+│       └── image_utils.py
+|
+├── tests/
+│   ├── __init__.py
+│   ├── test_image_utils.py
+│   ├── test_lsb.py
+│   ├── test_lsbm.py
+|   └── test_rlsb.py
+|
+├── requirements.txt
+└── README.md
+```
