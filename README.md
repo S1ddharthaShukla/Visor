@@ -125,3 +125,11 @@ Steganography-Project/
 ├── requirements.txt
 └── README.md
 ```
+
+## Contributions
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/S1ddharthaShukla/Steganography-Project?tab=MIT-1-ov-file) file for details.
