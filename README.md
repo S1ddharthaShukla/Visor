@@ -14,7 +14,7 @@ This project implements steganography techniques to encode and decode messages w
 - [Testing](#testing)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
+- [Contributing](#contributions)
 - [License](#license)
 
 ## Features
