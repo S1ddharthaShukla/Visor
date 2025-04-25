@@ -1,4 +1,4 @@
-# Steganography Project
+# Visor
 
 This project implements steganography techniques to encode and decode messages within images using various algorithms such as LSB, LSBM, and RLSB. The project includes both a command-line interface and a graphical user interface (GUI) using PyQt5.
 
